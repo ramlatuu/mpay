@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .debug{
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body class="bg-[#2a65ea] overflow-hidden">
+    <div class="bg-white rounded-lg p-4 max-w-sm mx-auto  debug">
+        <div class="flex items-center mb-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="text-blue-500 h-6 w-6">
+                <path d="m12 19-7-7 7-7"></path>
+                <path d="M19 12H5"></path>
+            </svg></div>
+        <h1 class="text-2xl font-bold mb-1">Create Account</h1>
+        <p class="text-sm text-gray-500 mb-6">Create a new account</p>
+        <form>
+            <div class="flex flex-col space-y-4 mb-6">
+                <div><label for="name" class="text-sm font-semibold text-gray-700">Name</label><input
+                        class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 "
+                        id="name" placeholder="user123@email.com" type="text"></div>
+                <div><label for="email" class="text-sm font-semibold text-gray-700">Email</label><input
+                        class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 "
+                        id="email" placeholder="user123@email.com" type="email"></div>
+                <div><label for="phone" class="text-sm font-semibold text-gray-700">Phone</label><input
+                        class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 "
+                        id="phone" placeholder="+91 9876543210" type="tel"></div>
+                <div><label for="password" class="text-sm font-semibold text-gray-700">Password</label><input
+                        class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 "
+                        id="password" placeholder="***************" type="password"></div>
+                <div><label for="confirm-password" class="text-sm font-semibold text-gray-700">Confirm
+                        Password</label><input
+                        class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 "
+                        id="confirm-password" placeholder="***************" type="password"></div>
+            </div><button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 px-4 py-2 w-full bg-blue-500 text-white">Create
+                Account</button>
+        </form>
+        <p class="text-center text-sm text-gray-600 mt-6">
+            Already have an account? <a class="text-blue-500" href="login.html">Login</a></p>
+    </div>
+</body>
+
+</html>

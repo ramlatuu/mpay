@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mpay</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <div class="flex h-screen w-full items-center justify-center bg-[#2a65ea]">
+        <div class="w-[350px] rounded-xl bg-white p-8 shadow-lg">
+            <div class="flex flex-col items-center space-y-6">
+                <img src="WhatsApp_Image_2024-03-04_at_05.46.06_2cd71476-removebg-preview.png" alt=""
+                class="w-[100px]">
+                <h1 class="text-2xl font-bold">Welcome Back</h1>
+                <p class="text-sm text-gray-600">Sign in to continue</p>
+            </div>
+            <form class="mt-8 space-y-4">
+                <div class="flex flex-col space-y-2"><label for="email"
+                        class="text-xs font-semibold text-gray-500">EMAIL</label><input
+                        class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                        id="email" placeholder="user123@email.com" type="email"></div>
+                <div class="flex flex-col space-y-2"><label for="password"
+                        class="text-xs font-semibold text-gray-500">PASSWORD</label><input
+                        class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                        id="password" placeholder="**********" type="password"></div>
+                <div class="text-right"><a class="text-xs text-[#2a65ea]" href="#">Forgot Password?</a></div><a href="mpay1.html"
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 px-4 py-2 mt-4 w-full bg-[#2a65ea] text-white">LOGIN</a>
+            </form>
+            <p class="mt-4 text-center text-xs">
+                Don't have account? <a class="text-[#2a65ea]" href="register.html">create a new account</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
